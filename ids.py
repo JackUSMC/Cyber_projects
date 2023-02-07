@@ -1,3 +1,4 @@
+*****************************************************************************************************************************************************
 "Creating an Intrusion Detection System (IDS) is a complex task that involves several steps, including"
 
 """Understanding the Network: Before designing an IDS, its essential to understand the network environment, 
@@ -12,6 +13,7 @@ Testing and Fine-Tuning: Once the IDS is set up, its essential to test the syste
 This step also involves fine-tuning the system to minimize false positives and optimize performance.
 
 Here is an example of a simple Python script for a Host-based IDS:"""
+*****************************************************************************************************************************************************
 
 import os
 import hashlib
