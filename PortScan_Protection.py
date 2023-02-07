@@ -1,5 +1,5 @@
 **********************************************************************************************************************************************
-"""This code uses the socket module to check if a specific port is open on a given host. 
+""""This code uses the socket module to check if a specific port is open on a given host. 
 The function is_port_open takes in a host and port and returns True if the port is open and False if it's closed. 
 The function detect_port_scan takes in a host and uses is_port_open to check if a large number of ports are open on that host. 
 If more than 10 ports are open, the code assumes that a port scan is taking place and alerts the user."""
