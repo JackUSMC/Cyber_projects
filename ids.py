@@ -1,3 +1,10 @@
+#This code implements a simple IDS system that takes a list of files and hashes them using SHA-1. 
+# It then compares the hashes of the files with a pre-defined set of known hashes for those files. 
+# If any of the file hashes do not match the known hash, the system raises an intrusion alert by printing a message to the console.
+
+# Note: This is just a basic implementation and there are many ways to improve and extend it, such as including more sophisticated 
+# methods of hashing, adding a database to store known hashes, or including more advanced intrusion detection algorithms.
+
 import hashlib
 
 def hash_file(filename):
